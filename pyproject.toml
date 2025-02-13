@@ -12,7 +12,7 @@ authors = [
 license = {text = "GPL-3.0-only"}
 readme = "README.md"
 requires-python = ">=3.12"
-keywords = ["linux", "arch", "archinstall", "installer"]
+keywords = ["linux", "cat", "catinstall", "installer"]
 classifiers = [
     "Programming Language :: Python :: 3.12",
     "Operating System :: POSIX :: Linux",
@@ -41,7 +41,7 @@ dev = [
 doc = ["sphinx"]
 
 [project.scripts]
-archinstall = "archinstall:run_as_a_module"
+catinstall = "archinstall:run_as_a_module"
 
 [tool.setuptools.dynamic]
 version = {attr = "archinstall.__version__"}
